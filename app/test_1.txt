@@ -1,0 +1,13 @@
+ANALISIS DEL TEST_1:
+
+Al analizar la salida del Pin PA6 (pin D12) con osciloscopio, tenemos que la salida es una onda cuadrada que sube y baja entre 3,3 V y -3 V de forma descendente y ascendente, manteniendo en todo tiempo su amplitud que es de 3,3 V. Además, su ciclo de trabajo es variable de forma lineal. El periodo de la señal es: T = 1 mS con una frecuencia de: f = 1 kHz, con ambos parámetros sin modificarse en el tiempo.
+
+En ese sentido, podemos decir que duty cycle se modifica con el tiempo, D(t), y se define como:
+
+D(t) = (T_on(t) / T) * 100 %
+
+en donde: T_on(t) = tiempo en nivel alto, variable.
+	  T = periodo de la señal, constante.
+	  D(t) = ciclio de trabajo, variable en el tiempo.
+
+En conclusión, hablamos de una señal PWM con un ciclio de trabajo variable en el tiempo, D(t).

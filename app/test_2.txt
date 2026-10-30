@@ -1,0 +1,3 @@
+ANALISIS TEST_2:
+
+Al analizar la señal de salida del pin PA6 (D12), tenemos que el periodo de la señal varia de forma lineal, de forma creciente y decreciente entre un intervalo T_var. Sin embargo, el duty Cycle se mantiene constante con un valor del 50%. Al colocar un diodo led a la salida (con su debida resistencia de polarización), observamos como el brillo varia en función del tiempo.
